@@ -12,35 +12,35 @@ Class Car {
         $this-> number = $number;
         $this-> color = $color;
     }
-    public function getName()
-    {
-        return $this-> name;
-    }
-    public function getNumber()
-    {
-        return $this-> number;
-    }
-    public function getColor()
-    {
-        return $this-> color;
-    }
-    public function setName($name)
-    {
-        $this->name = $name;
-    }
+public function getName()
+{
+    return $this-> name;
+}
+public function getNumber()
+{
+    return $this-> number;
+}
+public function getColor()
+{
+    return $this-> color;
+}
+public function setName($name)
+{
+    $this->name = $name;
+}
 
-    public function setNumber($number)
-    {
-        $this->number = $number;
-    }
-    public function setcolor($color)
-    {
-        $this->color = $color;
-    }
-    public function infomation()
-    {
-        echo '車の車種:' . $this-> name . '､車体番号:' . $this-> number . '､カラー:' . $this-> color . 'です｡' ;
-    }
+public function setNumber($number)
+{
+    $this->number = $number;
+}
+public function setcolor($color)
+{
+    $this->color = $color;
+}
+public function infomation()
+{
+    echo '車の車種:' . $this-> name . '､車体番号:' . $this-> number . '､カラー:' . $this-> color . 'です｡' ;
+}
 
 }
 
